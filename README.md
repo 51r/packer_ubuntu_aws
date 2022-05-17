@@ -22,3 +22,12 @@ git clone https://github.com/51r/packer_ubuntu_aws.git
 ```
 cd packer_ubuntu_aws
 ```
+* Make sure you have allowed Packer to access your IAM user credentials, set your AWS access key ID as an environment variable
+```
+export AWS_ACCESS_KEY_ID="<YOUR_AWS_ACCESS_KEY_ID>"
+```
+* Then set your secret key:
+```
+export AWS_SECRET_ACCESS_KEY="<YOUR_AWS_SECRET_ACCESS_KEY>"
+```
+If you don't have access to IAM user credentials, you can authenticate AWS using different methods described [here](https://www.packer.io/plugins/builders/amazon#authentication)
