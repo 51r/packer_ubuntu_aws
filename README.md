@@ -8,7 +8,7 @@ This guide applies to Mac, for other OS it may vary.
    *  for MacOS you can install it using [homebrew](https://brew.sh/)
    
     ```
-    brew install vagrant
+    brew install packer
     ```
   
    *  for any other OS click [here](https://packer.io/downloads.html) 
