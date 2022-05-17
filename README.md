@@ -31,3 +31,12 @@ export AWS_ACCESS_KEY_ID="<YOUR_AWS_ACCESS_KEY_ID>"
 export AWS_SECRET_ACCESS_KEY="<YOUR_AWS_SECRET_ACCESS_KEY>"
 ```
 If you don't have access to IAM user credentials, you can authenticate AWS using different methods described [here](https://www.packer.io/plugins/builders/amazon#authentication)
+* Initialize Packer:
+```
+packer init .
+```
+If you initialize Packer for the first time, you should get the following message:
+```
+Installed plugin github.com/hashicorp/amazon v0.0.2 in "/Users/youruser/.packer.d/plugins/github.com/hashicorp/amazon/packer-plugin-amazon_v0.0.2_x5.0_darwin_amd64"
+```
+It will download Amazon Plugin which is required for the following instance to be build. Keep in mind that if you initialise the packer again, it will not show you any input, as the plugins needed for the instance are already downloaded.
