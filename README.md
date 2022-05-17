@@ -21,5 +21,5 @@ git clone https://github.com/51r/packer_ubuntu_aws.git
 * Make sure you are in the folder of the repo:
 
 ```
-cd packer_ubuntu
+cd packer_ubuntu_aws
 ```
