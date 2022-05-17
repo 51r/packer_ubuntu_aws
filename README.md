@@ -29,6 +29,10 @@ export AWS_ACCESS_KEY_ID="<YOUR_AWS_ACCESS_KEY_ID>"
 ```
 export AWS_SECRET_ACCESS_KEY="<YOUR_AWS_SECRET_ACCESS_KEY>"
 ```
+* Then set your AWS region:
+```
+export AWS_DEFAULT_REGION="us-west-2"
+```
 If you don't have access to IAM user credentials, you can authenticate AWS using different methods described [here](https://www.packer.io/plugins/builders/amazon#authentication)
 * Initialize Packer:
 ```
