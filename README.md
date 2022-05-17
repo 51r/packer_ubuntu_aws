@@ -40,3 +40,7 @@ If you initialize Packer for the first time, you should get the following messag
 Installed plugin github.com/hashicorp/amazon v0.0.2 in "/Users/youruser/.packer.d/plugins/github.com/hashicorp/amazon/packer-plugin-amazon_v0.0.2_x5.0_darwin_amd64"
 ```
 It will download Amazon Plugin which is required for the following instance to be build. Keep in mind that if you initialise the packer again, it will not show you any input, as the plugins needed for the instance are already downloaded.
+* Build your environment:
+```
+packer build template.hcl
+```
