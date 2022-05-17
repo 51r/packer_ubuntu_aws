@@ -13,3 +13,13 @@ This guide applies to Mac, for other OS it may vary.
     ```
   
    *  for any other OS click [here](https://packer.io/downloads.html) for Packer and [here](https://www.vagrantup.com/downloads.html) for vagrant  
+
+* Clone this repo locally to a folder of your choice
+```
+git clone git@github.com:51r/packer_ubuntu_aws.git
+```
+* Make sure you are in the folder of the repo:
+
+```
+cd packer_ubuntu
+```
