@@ -18,7 +18,7 @@ This guide applies to Mac, for other OS it may vary.
 ```
 git clone https://github.com/51r/packer_ubuntu_aws.git
 ```
-* Make sure you are in the folder of the repo:
+* Make sure you are in the main directory of the repo:
 
 ```
 cd packer_ubuntu_aws
