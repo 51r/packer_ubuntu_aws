@@ -1,6 +1,5 @@
-# packer_ubuntu_aws
+# Instance in AWS using Packer
 
-## What is this repo
 This repo includes template for Packer, that creates ubuntu instance in aws.
 ## How to use the template
 This guide applies to Mac, for other OS it may vary. 
