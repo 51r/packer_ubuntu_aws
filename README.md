@@ -1,6 +1,7 @@
-# Ubuntu instance in AWS using Packer
+# Ubuntu + Nginx instance in AWS using Packer
 
-This repo includes template for Packer, that creates ubuntu instance in aws.
+This repo includes template for Packer, that creates ubuntu instance with preinstalled nginx in aws.
+
 ## How to use the template
 This guide applies to Mac, for other OS it may vary. 
 * You need to have packer  installed on you workstation
