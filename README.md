@@ -16,7 +16,7 @@ This guide applies to Mac, for other OS it may vary.
 
 * Clone this repo locally to a folder of your choice
 ```
-git clone git@github.com:51r/packer_ubuntu_aws.git
+git clone https://github.com/51r/packer_ubuntu_aws.git
 ```
 * Make sure you are in the folder of the repo:
 
