@@ -32,7 +32,7 @@ export AWS_SECRET_ACCESS_KEY="<YOUR_AWS_SECRET_ACCESS_KEY>"
 ```
 * Then set your AWS region:
 ```
-export AWS_DEFAULT_REGION="YOUR_AWS_REGION"
+export AWS_DEFAULT_REGION="<YOUR_AWS_REGION>"
 ```
 If you don't have access to IAM user credentials, you can authenticate AWS using different methods described [here](https://www.packer.io/plugins/builders/amazon#authentication)
 * Initialize Packer:
@@ -48,3 +48,21 @@ It will download Amazon Plugin which is required for the following instance to b
 ```
 packer build template.hcl
 ```
+The installation log will be printed to the screen.In the end you should get the following output: 
+```
+==> Builds finished. The artifacts of successful builds are:
+--> learn-packer.amazon-ebs.ubuntu: AMIs were created:
+<YOUR_AWS_REGION: ami-ID
+```
+* Visit the AWS AMI page to verify that Packer successfully built your AMI. **learn-packer-ubuntu-aws**
+
+* Select your AMI and click the button on the top right "Launch instance from AMI".
+
+* Now you have running ubuntu instance with running nginx on it. 
+
+* You can ssh and check if the nginx is running by executing the following command:
+```
+service nginx status
+```
+
+After you are done with the tests, remove the instance and deregister the AMI from AWS and remove the snapshot. This step should be done only if you wish to terminate the instance
