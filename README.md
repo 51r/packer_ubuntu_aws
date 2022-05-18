@@ -58,7 +58,7 @@ The installation log will be printed to the screen.In the end you should get the
 
 * Select your AMI and click the button on the top right "Launch instance from AMI".
 
-* Now you have running ubuntu instance with running nginx on it. 
+* Now you have created ubuntu instance with running nginx on it. 
 
 * You can ssh and check if the nginx is running by executing the following command:
 ```
