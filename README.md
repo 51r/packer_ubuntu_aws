@@ -60,7 +60,7 @@ The installation log will be printed to the screen.In the end you should get the
 
 * Now you have created ubuntu instance with running nginx on it. 
 
-* You can ssh and check if the nginx is running by executing the following command:
+* You can ssh to the instance and check if the nginx is running by executing the following command:
 ```
 service nginx status
 ```
